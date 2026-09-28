@@ -225,16 +225,29 @@ C code in the GUI process. (Open)
 
 ## What's next
 
+These are not additional GSoC goals; they are the areas I would like to continue working on as
+ongoing development and contribution to the projects.
+
 - Get the COSMIC Settings and daemon PRs reviewed and merged.
-- User-only and system-wide printer profiles.
+- Implement user-only and system-wide printer profiles, including:
+  - Adding printers by IP address and port.
+  - Adding a network by IP range for a one-time scan, allowing users to select which discovered
+    printers to add.
+  - Adding a network by name, which is saved and used to automatically discover printers.
+  - Supporting **For me only** and **For everyone** profiles for printers and networks.
+- Add a profile management page, including:
+  - A **Profile** page with separate **For me** and **For everyone** sections.
+  - Viewing and managing added printers and print servers.
+  - Viewing and managing added network names.
+  - Removing printers, print servers, and networks from the profile.
+  - Changing the sharing scope of an entry between **For me** and **For everyone**.
+- Add printer filtering and hiding, including:
+  - Filtering printers by location.
+  - Filtering by printer capabilities such as color, duplex, stapling, and paper sizes.
+  - Hiding specific printers through a selectable list (not available yet; I opened
+    [an issue](https://github.com/OpenPrinting/cups-local/issues/6) to ask Michael whether this
+    feature will be added).
 - Move to cups-local once CUPS 3 is out.
-- **Drop cups-rs / libcups.** Most of the backend is IPP already, and the `ipp` crate exists, so
-  this is half possible (not tested yet). The hard parts are the libcups APIs that have their own logic,
-  like lpoptions, test page printing and `cupsEnumDests`. Porting them to Rust works, but they
-  have to be kept in sync with libcups.
-- **Add a printer by IP:port.** Today you can open the Printer Application web page from Add
-  Printer and add the address there. CUPS 3 already supports listing ip:port printers in a user
-  profile (cups-local) or a system profile (cups-sharing), so I will build on that, but I can't test it until CUPS 3 is released.
 
 ## Try it
 
