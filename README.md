@@ -249,6 +249,8 @@ ongoing development and contribution to the projects.
     feature will be added).
 - Move to cups-local once CUPS 3 is out.
 
+I plan to continue contributing to cosmic-printers beyond GSoC. I would like to keep working on the project by fixing reported issues, improving reliability and usability, and adding new features based on user needs and upstream development.
+
 ## Try it
 
 On Debian/Ubuntu.
