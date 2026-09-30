@@ -297,7 +297,7 @@ Run the standalone app:
 ```sh
 git clone https://github.com/Abd002/cosmic-printers
 cd cosmic-printers
-cargo run -p cosmic-printers
+cargo run -p printers
 ```
 
 ## Thanks
