@@ -128,6 +128,7 @@ FFI and use it in the cosmic-printers backend.
 | [#20 CUPS-defined ConnectionFlags, connect to a host by IP/port](https://github.com/OpenPrinting/cups-rs/pull/20) | Merged |
 | [#21 DNS-SD service discovery](https://github.com/OpenPrinting/cups-rs/pull/21) | Merged |
 | [#22 lpoptions support, destination and job fixes](https://github.com/OpenPrinting/cups-rs/pull/22) | Merged |
+| [#23 Full CI matrix across architectures and CUPS versions](https://github.com/OpenPrinting/cups-rs/pull/23) | Open |
 
 Before GSoC: [#8](https://github.com/OpenPrinting/cups-rs/pull/8),
 [#9](https://github.com/OpenPrinting/cups-rs/pull/9),
