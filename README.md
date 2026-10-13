@@ -183,7 +183,9 @@ C code in the GUI process. (Open)
   cups-rs CI builds against both CUPS 2 and CUPS 3.
 
 ## What I learned
-
+- **Rust.** I gained strong hands-on experience with Rust and became much more confident in it. I studied resources like _Rust for Rustaceans_,
+  which helped me learn how to design idiomatic Rust interfaces, handle errors effectively, and organize a project's structure.
+  I applied these concepts throughout my implementations, following Rust idioms and best practices to write clean, maintainable, and well-structured code.
 - Desktop GUI programming with iced and libcosmic. The libcosmic community helped me a lot,
   thanks to all of them.
 - FFI. I really enjoyed it, and the DNS-SD bindings were the part I liked most. This is how
